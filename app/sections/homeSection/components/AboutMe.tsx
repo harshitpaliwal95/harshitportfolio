@@ -15,9 +15,13 @@ const AboutMe = () => {
           development journey began by creating custom WordPress themes, and
           over the years, I’ve evolved into building powerful, scalable software
           solutions for a range of industries—from
-          <span className="font-semibold text-white">innovative startups</span>
+          <span className="font-semibold text-white">
+            {" "}
+            innovative startups{" "}
+          </span>
           to
           <span className="font-semibold text-white">
+            {" "}
             large-scale enterprises
           </span>
           .
@@ -31,7 +35,7 @@ const AboutMe = () => {
           both{" "}
           <span className="font-semibold text-white">
             Android and iOS devices
-          </span>
+          </span>{" "}
           using React Native, and contribute to large-scale crypto solutions. My
           goal? To build user interfaces that not only look great but also run
           seamlessly across platforms.
