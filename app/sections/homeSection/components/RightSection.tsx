@@ -12,7 +12,7 @@ const RightSection = () => {
           <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
             Harshit Paliwal
           </h1>
-          <h3 className="text-xl text-slate-300 mt-4">Frontend Engineer</h3>
+          <h2 className="text-xl text-slate-300 mt-4">Frontend Engineer</h2>
         </div>
         <p className="mt-4 max-w-xs leading-normal text-md text-slate-400">
           I craft seamless, visually engaging, and accessible digital
@@ -50,7 +50,7 @@ const RightSection = () => {
           </ul>
         </nav>
       </div>
-      <ul className="ml-1 mt-8 flex items-center gap-4">
+      <div className="ml-1 mt-8 flex items-center gap-4">
         <a
           href="https://github.com/harshitpaliwal95"
           target="_blank"
@@ -83,7 +83,7 @@ const RightSection = () => {
         >
           <RiTwitterXFill size={25} />
         </a>
-      </ul>
+      </div>
     </div>
   );
 };
