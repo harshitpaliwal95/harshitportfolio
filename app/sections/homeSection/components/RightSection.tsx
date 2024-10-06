@@ -1,4 +1,8 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { RiTwitterXFill } from "react-icons/ri";
 
 const RightSection = () => {
   return (
@@ -46,7 +50,40 @@ const RightSection = () => {
           </ul>
         </nav>
       </div>
-      <ul className="ml-1 mt-8 flex items-center">github</ul>
+      <ul className="ml-1 mt-8 flex items-center gap-4">
+        <a
+          href="https://github.com/harshitpaliwal95"
+          target="_blank"
+          aria-label="github harshitpaliwal95"
+          className="block hover:text-slate-200"
+        >
+          <FaGithub size={25} />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/harshitpaliwal95/"
+          target="_blank"
+          aria-label="linkedin harshitpaliwal95"
+          className="block hover:text-slate-200"
+        >
+          <FaLinkedin size={25} />
+        </a>
+        <a
+          href="https://www.instagram.com/harshit_paliwall/"
+          target="_blank"
+          aria-label="Instagram harshit_paliwall"
+          className="block hover:text-slate-200"
+        >
+          <FaInstagram size={25} />
+        </a>
+        <a
+          href="https://x.com/harshit__hp"
+          target="_blank"
+          aria-label="twitter harshit__hp"
+          className="block hover:text-slate-200"
+        >
+          <RiTwitterXFill size={25} />
+        </a>
+      </ul>
     </div>
   );
 };
