@@ -34,6 +34,16 @@ const ExpData = [
 ];
 const projectData = [
   {
+    title: "MindGrades | UPSC Community Platform",
+    description:
+      "Built this web application as a side project using Next.js and Tailwind CSS. MindGrades is an AI-powered UPSC Mains preparation platform that enables students to write answers daily, receive instant feedback, and track their performance. I handled the complete frontend architecture, SEO optimization, and dynamic content rendering to ensure a fast, scalable, and user-friendly experience for aspirants.",
+    skills: ["Next.js", "Tailwind CSS", "React", "AWS", "Frontend Architecture"],
+    link: "https://mindgrades.com/",
+    expDate: null,
+    imgUrl:
+      "https://res.cloudinary.com/dwm5wpz0b/image/upload/v1750240962/mindgrades_epydpg.png",
+  },
+  {
     title: "Light UI | Component Library",
     description:
       "Created a responsive component library using HTML5, CSS3, and JavaScript, designed for seamless integration into any website. It includes pre-styled elements like buttons, grids, and images, along with extensive documentation for easy implementation. This library streamlines web development by providing ready-to-use components, saving time and ensuring consistency across projects.",
